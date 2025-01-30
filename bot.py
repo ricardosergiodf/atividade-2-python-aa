@@ -6,7 +6,6 @@ in order to get all the dependencies on your Python environment.
 from botcity.web import WebBot, Browser, By
 from botcity.maestro import *
 from functions import *
-import traceback
 
 BotMaestroSDK.RAISE_NOT_CONNECTED = False
 
