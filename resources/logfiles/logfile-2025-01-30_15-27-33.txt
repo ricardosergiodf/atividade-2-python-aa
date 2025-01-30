@@ -1,0 +1,29 @@
+(30/01/2025 15:27:33) - INFO - Inicio - Atividade 2 - Python & Automation Anywhere
+(30/01/2025 15:27:33) - INFO - Maestro desativado -> Executando localmente
+(30/01/2025 15:27:33) - INFO - Inicio - Test case 1
+(30/01/2025 15:27:37) - INFO - Clicado no botao 'add'.
+(30/01/2025 15:27:37) - INFO - Tenta capturar a linha 2.
+(30/01/2025 15:27:37) - ERROR - Erro: no such element: Unable to locate element: {"method":"css selector","selector":"div[id='row2'] input[type='text']"}
+(30/01/2025 15:27:39) - INFO - Foi gerado um erro.
+(30/01/2025 15:27:39) - INFO - Fim - Test case 1
+(30/01/2025 15:27:39) - INFO - Inicio - Test case 2
+(30/01/2025 15:27:41) - INFO - Clicado no botao 'add'.
+(30/01/2025 15:27:47) - INFO - Linha 2 preenchida.
+(30/01/2025 15:27:47) - ERROR - Erro: element not interactable
+(30/01/2025 15:27:47) - INFO - Foi gerado um erro.
+(30/01/2025 15:27:47) - INFO - Fim - Test case 2
+(30/01/2025 15:27:47) - INFO - Inicio - Test case 3
+(30/01/2025 15:27:47) - INFO - Tentativa de dar clear() no campo.
+(30/01/2025 15:27:47) - ERROR - Erro: javascript error: {"status":12,"value":"Element is not currently interactable and may not be manipulated"}
+(30/01/2025 15:27:47) - INFO - Foi gerado um erro.
+(30/01/2025 15:27:47) - INFO - Fim - Test case 3
+(30/01/2025 15:27:47) - INFO - Inicio - Test case 4
+(30/01/2025 15:27:47) - INFO - Clicado no botao 'add'.
+(30/01/2025 15:27:47) - ERROR - Erro: stale element reference: stale element not found in the current frame
+(30/01/2025 15:27:47) - INFO - Foi gerado um erro.
+(30/01/2025 15:27:47) - INFO - Fim - Test case 4
+(30/01/2025 15:27:47) - INFO - Inicio - Test case 5
+(30/01/2025 15:27:51) - ERROR - Erro: no such element: Unable to locate element: {"method":"css selector","selector":"div[id='row2'] input[type='text']"}
+(30/01/2025 15:27:51) - INFO - Foi gerado um erro.
+(30/01/2025 15:27:51) - INFO - Fim - Test case 5
+(30/01/2025 15:27:51) - INFO - Fim - Atividade 2 - Python & Automation Anywhere
