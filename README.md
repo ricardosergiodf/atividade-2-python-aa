@@ -13,7 +13,7 @@ Este projeto tem como objetivo a captura de erros ao interagir com a pagina [Pra
 ```
 /
 |-- bot.py               # Script principal para execucao dos testes
-|-- functions.py         # Funcoes auxiliares para interacao com a web
+|-- functions.py         # Funcoes criadas para as tasks
 |-- requirements.txt     # Dependencias do projeto
 |-- resources/
     |-- logfiles/        # Arquivos de log gerados durante a execucao
@@ -83,9 +83,6 @@ resources/logfiles/logfile-YYYY-MM-DD_HH-MM-SS.txt
 ```
 Eles contem informacoes sobre cada execucao, erros encontrados e tempo de execucao.
 
-## Contribuicao
-Caso queira contribuir com melhorias, sinta-se livre para abrir um pull request ou relatar problemas na aba de **Issues**.
-
-## Licença
-Este projeto esta sob a licença MIT. Voce pode usar, modificar e distribuir livremente.
+## Contato
+LinkedIn: https://www.linkedin.com/in/ricardo-duarte-dev
 
