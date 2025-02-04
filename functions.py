@@ -55,11 +55,12 @@ def browse_close(bot):
 
 def test_case_1(bot, url):
     logging.info("Inicio - Test case 1")
-    browse_url(bot, url)
-    add_btn = bot.find_element("#add_btn", By.CSS_SELECTOR)
-    add_btn.click()
-    logging.info("Clicado no botao 'add'.")
+    
     try:
+        browse_url(bot, url)
+        add_btn = bot.find_element("#add_btn", By.CSS_SELECTOR)
+        add_btn.click()
+        logging.info("Clicado no botao 'add'.")
         # Verify Row 2 input field is displayed
         logging.info("Tenta capturar a linha 2.")
         row_2_field = bot.driver.find_element("css selector", "div[id='row2'] input[type='text']")
@@ -76,8 +77,8 @@ def test_case_1(bot, url):
 
 def test_case_2(bot, url):
     logging.info("Inicio - Test case 2")
-    browse_url(bot, url)
     try:
+        browse_url(bot, url)
         add_btn = bot.find_element("#add_btn", By.CSS_SELECTOR)
         add_btn.click()
         logging.info("Clicado no botao 'add'.")
@@ -97,8 +98,8 @@ def test_case_2(bot, url):
 
 def test_case_3(bot, url):
     logging.info("Inicio - Test case 3")
-    browse_url(bot, url)
     try:
+        browse_url(bot, url)
         row_1_field = bot.find_element("/html[1]/body[1]/div[1]/div[1]/section[1]/section[1]/div[1]/div[1]/div[1]/input[1]", By.XPATH)
         logging.info("Tentativa de dar clear() no campo.")
         row_1_field.clear()
@@ -112,8 +113,8 @@ def test_case_3(bot, url):
 
 def test_case_4(bot, url):
     logging.info("Inicio - Test case 4")
-    browse_url(bot, url)
     try:
+        browse_url(bot, url)
         instruction_element = bot.find_element("#instructions", By.CSS_SELECTOR)
         add_btn = bot.find_element("#add_btn", By.CSS_SELECTOR)
         add_btn.click()
@@ -129,8 +130,8 @@ def test_case_4(bot, url):
 
 def test_case_5(bot, url):
     logging.info("Inicio - Test case 5")
-    browse_url(bot, url)
     try:
+        browse_url(bot, url)
         add_btn = bot.find_element("#add_btn", By.CSS_SELECTOR)
         add_btn.click()
 
